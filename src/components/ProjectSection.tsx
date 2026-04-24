@@ -205,7 +205,7 @@ const mockProjects: Project[] = [
     description:
       "Streamlined medicine tracking, inventory control and AI-powered analytics across global pharmacy hubs.",
     image: p16,
-    projectUrl: "https://stermed.vercel.app/",
+    projectUrl: "https://stermedd.vercel.app",
     members: [
       { id: "1", name: "KABERA Gaju Elysee", role: "Team Lead" },
       { id: "2", name: "IYIZIRE Corail", role: "Developer" },

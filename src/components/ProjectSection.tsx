@@ -23,7 +23,7 @@ const mockProjects: Project[] = [
     description:
       "Creating innovative solutions for people with disabilities. Technology that empowers everyone.",
     image: p18,
-    projectUrl: "https://baho-tech.andasy.dev/",
+    projectUrl: "https://baho-tech-innovation-web.onrender.com/",
     members: [
       { id: "1", name: "Rugambwa Genson", role: "Frontend Developer" },
       { id: "2", name: "Mahoro Gislaine", role: "API Tester" },
@@ -33,7 +33,7 @@ const mockProjects: Project[] = [
   },
     {
     id: "19",
-    title: "Travel Rwanda, Book Seamlessly with BookIt",
+    title: "BookIt",
     description:
       "BookIt is the digital platform simplifying bus travel in Rwanda and beyond. Search, book, and manage your tickets instantly, eliminating long queues and manual processes.",
     image: p19,

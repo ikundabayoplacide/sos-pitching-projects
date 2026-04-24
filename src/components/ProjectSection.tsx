@@ -143,7 +143,7 @@ const mockProjects: Project[] = [
     id: "14",
     title: "FLOW",
     description:
-      "The professional workspace for manual expense tracking. Log every movement, get AI-powered analysis, and grow with total financial clarity.",
+      "A comprehensive web-based stock management system for  shop retailers that enables inventory tracking, sales management, visual product previews, and multi-shop administration with centralized data synchronization.",
     image: p14,
     projectUrl: "https://tilestokapp-2.onrender.com",
     members: [

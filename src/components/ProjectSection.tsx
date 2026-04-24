@@ -7,7 +7,7 @@ import p5 from '../assets/5.png';
 import p6 from '../assets/6.png';
 import p7 from '../assets/7.png';
 import p15 from '../assets/15.png';
-import p3 from '../assets/3.png';
+import p2 from '../assets/2.png';
 import p16 from '../assets/16.png';
 import p19 from '../assets/p19.png';
 import P1image from '../assets/image.png';
@@ -41,6 +41,21 @@ const mockProjects: Project[] = [
       { id: "2", name: "RYABAHIKA ALOYSIE", role: "Developer" },
       { id: "3", name: "NDASHIMYE ALPHA YASSIN", role: "Developer" },
       { id: "4", name: "NZIZA SUGI OLGA", role: "Developer" },
+    ],
+  },
+   {
+    id: "2",
+    title: "Schedule",
+    description:
+      "Automate employee scheduling, eliminate shift conflicts, and keep your whole team in sync — from one intelligent dashboard.",
+    image:p2,
+    projectUrl: "https://schedules-app-uzde.onrender.com/",
+    members: [
+      { id: "1", name: "YVE Andre", role: "Team Lead" },
+      { id: "2", name: "DUSHIME Nani Chris", role: "Developer" },
+      { id: "3", name: "KWIZERA Daniel", role: "Developer" },
+      { id: "4", name: "NDINDABAHIZI Lisa", role: "Developer" },
+      { id: "5", name: "KAMANZI Bruce", role: "Developer" },
     ],
   },
   {
@@ -170,11 +185,11 @@ const mockProjects: Project[] = [
 
   {
     id: "3",
-    title: "Schedule",
+    title: "group 3 project",
     description:
-      "Automate employee scheduling, eliminate shift conflicts, and keep your whole team in sync — from one intelligent dashboard.",
-    image: p3,
-    projectUrl: "https://schedules-app-uzde.onrender.com/",
+      "No Project provided",
+    image: "https://images.unsplash.com/photo-1506744038136-46273834b3fb?w=800&q=80",
+    projectUrl: "",
     members: [
       { id: "1", name: "Mugisha Kayitare Eloge", role: "Team Lead" },
       { id: "2", name: "Manzi Herve", role: "Developer" },
@@ -199,11 +214,11 @@ const mockProjects: Project[] = [
   },
   {
     id: "11",
-    title: "GROUP 11 Project",
+    title: "SOS CHILDREN'S VILLAGES",
     description:
-      "Innovative digital platform created by GROUP 11 team members with modern development practices.",
+      "A comprehensive platform for managing child sponsorships, donations, and volunteer coordination, empowering SOS Children's Villages to create a brighter future for vulnerable children worldwide.",
     image: p11,
-    projectUrl: "https://group11-project.vercel.app",
+    projectUrl: "https://attendance-project-teal.vercel.app/signin",
     members: [
       { id: "1", name: "KWIZERA Kabanda Bertin", role: "Team Lead" },
       { id: "2", name: "IKIREZI Rwanyonga Favor", role: "Developer" },
@@ -211,22 +226,7 @@ const mockProjects: Project[] = [
       { id: "4", name: "Hirwa Olivier", role: "Developer" },
     ],
   },
-  {
-    id: "2",
-    title: "GROUP 2 Project",
-    description:
-      "Innovative solution developed by GROUP 2 team members showcasing their technical skills and creativity.",
-    image:
-      "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=800&q=80",
-    projectUrl: "https://group2-project.vercel.app",
-    members: [
-      { id: "1", name: "YVE Andre", role: "Team Lead" },
-      { id: "2", name: "DUSHIME Nani Chris", role: "Developer" },
-      { id: "3", name: "KWIZERA Daniel", role: "Developer" },
-      { id: "4", name: "NDINDABAHIZI Lisa", role: "Developer" },
-      { id: "5", name: "KAMANZI Bruce", role: "Developer" },
-    ],
-  },
+ 
 
   {
     id: "4",

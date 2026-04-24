@@ -8,7 +8,8 @@ import p6 from '../assets/6.png';
 import p7 from '../assets/7.png';
 import p15 from '../assets/15.png';
 import p3 from '../assets/3.png';
-import p16 from '../assets/16.png'
+import p16 from '../assets/16.png';
+import p19 from '../assets/p19.png';
 import P1image from '../assets/image.png';
 import type { Project } from '../types';
 import ProjectCard from './ProjectCard';
@@ -26,6 +27,20 @@ const mockProjects: Project[] = [
       { id: "2", name: "Mahoro Gislaine", role: "API Tester" },
       { id: "3", name: "Nancy Teta", role: "Backend Developer" },
       { id: "4", name: "Nyarwaya Kenny", role: "Database Manager" },
+    ],
+  },
+    {
+    id: "19",
+    title: "Travel Rwanda, Book Seamlessly with BookIt",
+    description:
+      "BookIt is the digital platform simplifying bus travel in Rwanda and beyond. Search, book, and manage your tickets instantly, eliminating long queues and manual processes.",
+    image: p19,
+    projectUrl: "https://book-it-rw.onrender.com/",
+    members: [
+      { id: "1", name: "KWIZERA AIME LOIC", role: "Team Lead" },
+      { id: "2", name: "RYABAHIKA ALOYSIE", role: "Developer" },
+      { id: "3", name: "NDASHIMYE ALPHA YASSIN", role: "Developer" },
+      { id: "4", name: "NZIZA SUGI OLGA", role: "Developer" },
     ],
   },
   {
@@ -277,21 +292,7 @@ const mockProjects: Project[] = [
       { id: "5", name: "Niwemugisha Prince", role: "Developer" },
     ],
   },
-  {
-    id: "19",
-    title: "GROUP 19 Project",
-    description:
-      "Advanced digital platform created by GROUP 19 showcasing technical skills and innovation.",
-    image:
-      "https://images.unsplash.com/photo-1542744173-8e7e53415bb0?w=800&q=80",
-    projectUrl: "https://group19-project.vercel.app",
-    members: [
-      { id: "1", name: "KWIZERA AIME LOIC", role: "Team Lead" },
-      { id: "2", name: "RYABAHIKA ALOYSIE", role: "Developer" },
-      { id: "3", name: "NDASHIMYE ALPHA YASSIN", role: "Developer" },
-      { id: "4", name: "NZIZA SUGI OLGA", role: "Developer" },
-    ],
-  },
+
   {
     id: "20",
     title: "GROUP 20 Project",

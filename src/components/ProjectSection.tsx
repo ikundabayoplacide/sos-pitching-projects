@@ -6,6 +6,7 @@ import p18 from '../assets/18.png';
 import p5 from '../assets/5.png';
 import p6 from '../assets/6.png';
 import p7 from '../assets/7.png';
+import p4 from '../assets/4.png';
 import p18b from '../assets/p18b.png';
 import p15 from '../assets/15.png';
 import p2 from '../assets/2.png';
@@ -231,12 +232,11 @@ const mockProjects: Project[] = [
 
   {
     id: "4",
-    title: "GROUP 4 Project",
+    title: "AGRILINK:Where Farmers Meet Buyers,Directly",
     description:
-      "Revolutionary project showcasing innovation and technical excellence from GROUP 4 members.",
-    image:
-      "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=800&q=80",
-    projectUrl: "https://group4-project.vercel.app",
+      "AgriLink cuts out the middleman. List your produce, find fresh goods, arrange delivery — all in one transparent marketplace.",
+    image: p4,
+    projectUrl: "https://agrilink-2.vercel.app/",
     members: [
       { id: "1", name: "TUMWEBAZE Johnson", role: "Team Lead" },
       { id: "2", name: "MANZI Royal Darius", role: "Developer" },

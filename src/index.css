@@ -1,0 +1,183 @@
+@import "tailwindcss";
+
+@theme {
+  --breakpoint-xxs: 320px;
+  --breakpoint-xs: 480px;
+  --breakpoint-sm: 640px;
+  --breakpoint-md: 768px;
+  --breakpoint-lg: 1024px;
+  --breakpoint-xl: 1280px;
+  --breakpoint-2xl: 1536px;
+  --breakpoint-3xl: 1920px;
+  --breakpoint-4xl: 2560px;
+
+  /* Royal Blue (from SanTech logo) */
+  --color-primary-50: oklch(95% 0.08 265);
+  --color-primary-100: oklch(88% 0.12 265);
+  --color-primary-200: oklch(78% 0.16 265);
+  --color-primary-300: oklch(68% 0.18 265);
+  --color-primary-400: oklch(58% 0.20 265);
+  --color-primary-500: oklch(48% 0.22 265);
+  --color-primary-600: oklch(38% 0.20 265);
+  --color-primary-700: oklch(30% 0.16 265);
+  --color-primary-800: oklch(24% 0.12 265);
+  --color-primary-900: oklch(18% 0.08 265);
+
+  /* Silver/Gray (from SanTech logo text) */
+  --color-secondary-50: oklch(98% 0.00 240);
+  --color-secondary-100: oklch(92% 0.00 240);
+  --color-secondary-200: oklch(82% 0.00 240);
+  --color-secondary-300: oklch(72% 0.00 240);
+  --color-secondary-400: oklch(62% 0.00 240);
+  --color-secondary-500: oklch(52% 0.00 240);
+  --color-secondary-600: oklch(42% 0.00 240);
+  --color-secondary-700: oklch(32% 0.00 240);
+  --color-secondary-800: oklch(24% 0.00 240);
+  --color-secondary-900: oklch(16% 0.00 240);
+
+  /* Cyan accent (circuit board lines) */
+  --color-accent-50: oklch(96% 0.06 210);
+  --color-accent-100: oklch(90% 0.10 210);
+  --color-accent-200: oklch(82% 0.14 210);
+  --color-accent-300: oklch(74% 0.16 210);
+  --color-accent-400: oklch(66% 0.18 210);
+  --color-accent-500: oklch(58% 0.20 210);
+  --color-accent-600: oklch(48% 0.18 210);
+  --color-accent-700: oklch(38% 0.14 210);
+  --color-accent-800: oklch(28% 0.10 210);
+  --color-accent-900: oklch(20% 0.06 210);
+
+  /* Dark theme colors (matching SanTech design) */
+  --color-background-primary: oklch(8% 0.02 265); /* deep black background */
+  --color-background-secondary: oklch(14% 0.04 265); /* dark blue-black */
+  --color-background-tertiary: oklch(20% 0.06 265); /* card/section background */
+  
+  --color-text-primary: oklch(98% 0 0); /* white text */
+  --color-text-secondary: oklch(82% 0.00 240); /* silver-gray text */
+  --color-text-muted: oklch(62% 0.00 240); /* muted gray text */
+}
+
+/* Custom Animations */
+@keyframes blink {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0; }
+}
+
+@keyframes float {
+  0%, 100% { transform: translateY(0px); }
+  50% { transform: translateY(-20px); }
+}
+
+@keyframes morph {
+  0%, 100% { border-radius: 40% 60% 70% 30% / 40% 50% 60% 50%; }
+  25% { border-radius: 60% 40% 30% 70% / 50% 60% 40% 50%; }
+  50% { border-radius: 30% 70% 50% 50% / 60% 30% 70% 40%; }
+  75% { border-radius: 70% 30% 50% 50% / 40% 70% 30% 60%; }
+}
+
+@keyframes spin-slow {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+@keyframes scroll {
+  0% { transform: translateY(0); opacity: 0; }
+  50% { opacity: 1; }
+  100% { transform: translateY(20px); opacity: 0; }
+}
+
+@keyframes fade-in {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.animate-blink {
+  animation: blink 1s infinite;
+}
+
+.animate-float {
+  animation: float 3s ease-in-out infinite;
+}
+
+.animate-morph {
+  animation: morph 8s ease-in-out infinite;
+}
+
+.animate-spin-slow {
+  animation: spin-slow 10s linear infinite;
+}
+
+.animate-scroll {
+  animation: scroll 2s ease-in-out infinite;
+}
+
+@keyframes shimmer {
+  0% { background-position: -200% 0; }
+  100% { background-position: 200% 0; }
+}
+
+@keyframes gridMove {
+  0% { transform: translate(0, 0); }
+  100% { transform: translate(50px, 50px); }
+}
+
+.animate-shimmer {
+  animation: shimmer 3s ease-in-out infinite;
+}
+
+.animate-fade-in {
+  animation: fade-in 1s ease-out;
+}
+
+@keyframes shimmer-fast {
+  0% { transform: translateX(-100%); }
+  100% { transform: translateX(100%); }
+}
+
+@keyframes blob {
+  0%, 100% { transform: translate(0, 0) scale(1); }
+  33% { transform: translate(30px, -50px) scale(1.1); }
+  66% { transform: translate(-20px, 20px) scale(0.9); }
+}
+
+@keyframes spin-smooth {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+@keyframes spin-reverse {
+  from { transform: rotate(360deg); }
+  to { transform: rotate(0deg); }
+}
+
+.animate-shimmer-fast {
+  animation: shimmer-fast 1.5s ease-in-out infinite;
+}
+
+.animate-blob {
+  animation: blob 7s ease-in-out infinite;
+}
+
+.animate-spin-smooth {
+  animation: spin-smooth 2s linear infinite;
+}
+
+.animate-spin-reverse {
+  animation: spin-reverse 3s linear infinite;
+}
+
+.animation-delay-2000 {
+  animation-delay: 2s;
+}
+
+.animation-delay-4000 {
+  animation-delay: 4s;
+}
+
+body.landing-loading {
+  overflow: hidden;
+}
+
+body.landing-loading .site-chrome {
+  visibility: hidden;
+}

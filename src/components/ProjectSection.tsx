@@ -247,7 +247,7 @@ const mockProjects: Project[] = [
 
   {
     id: "8",
-    title: "GROUP 8 Project",
+    title: "Umuganda_T",
     description:
       "Innovative solution led by GROUP 8 demonstrating technical expertise and creative problem-solving.",
     image:

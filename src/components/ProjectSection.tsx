@@ -216,7 +216,7 @@ const mockProjects: Project[] = [
   },
   {
     id: "11",
-    title: "SOS CHILDREN'S VILLAGES",
+    title: "ATTEND-X",
     description:
       "A comprehensive platform for managing child sponsorships, donations, and volunteer coordination, empowering SOS Children's Villages to create a brighter future for vulnerable children worldwide.",
     image: p11,

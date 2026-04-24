@@ -6,6 +6,7 @@ import p18 from '../assets/18.png';
 import p5 from '../assets/5.png';
 import p6 from '../assets/6.png';
 import p7 from '../assets/7.png';
+import p18b from '../assets/p18b.png';
 import p15 from '../assets/15.png';
 import p2 from '../assets/2.png';
 import p16 from '../assets/16.png';
@@ -278,12 +279,11 @@ const mockProjects: Project[] = [
 
   {
     id: "18b",
-    title: "GROUP 18B Project",
+    title: "Your Farm's AI Doctor",
     description:
-      "Innovative technology solution developed by GROUP 18B team with modern development practices.",
-    image:
-      "https://images.unsplash.com/photo-1519389950473-47ba0277781c?w=800&q=80",
-    projectUrl: "https://group18b-project.vercel.app",
+      "Upload a crop image and instantly detect diseases, understand causes, and get effective treatment solutions powered by AI.",
+    image: p18b,
+    projectUrl: "https://agrinova-front.vercel.app/",
     members: [
       { id: "1", name: "Hirwa Ivan", role: "Team Lead" },
       { id: "2", name: "Umwali Cynthia Belize", role: "Developer" },

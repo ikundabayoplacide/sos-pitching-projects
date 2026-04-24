@@ -191,7 +191,7 @@ const mockProjects: Project[] = [
     description:
       "No Project provided",
     image: "https://images.unsplash.com/photo-1506744038136-46273834b3fb?w=800&q=80",
-    projectUrl: "",
+    projectUrl: "https://stockflow-k9ezy9sbk-ishimwe-brunos-projects.vercel.app",
     members: [
       { id: "1", name: "Mugisha Kayitare Eloge", role: "Team Lead" },
       { id: "2", name: "Manzi Herve", role: "Developer" },
@@ -296,12 +296,12 @@ const mockProjects: Project[] = [
 
   {
     id: "20",
-    title: "GROUP 20 Project",
+    title: "RwandaGo",
     description:
-      "No Project Just,Just wait.",
+      "Car Rental & Touring System for Foreigners in Rwanda. Providing Easy Transport + Guided Touring for Exact Stay Duration",
     image:
       "https://images.unsplash.com/photo-1553877522-43269d4ea984?w=800&q=80",
-    // projectUrl: "https://group20-project.vercel.app",
+    projectUrl: "https://rwanda-eight.vercel.app/",
     members: [
       { id: "1", name: "SHEMA Shanny", role: "Team Lead" },
       { id: "2", name: "SHIMWA Favour Chris", role: "Developer" },

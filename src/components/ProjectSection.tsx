@@ -145,7 +145,7 @@ const mockProjects: Project[] = [
     description:
       "The professional workspace for manual expense tracking. Log every movement, get AI-powered analysis, and grow with total financial clarity.",
     image: p14,
-    projectUrl: "https://flow-frontend-two.vercel.app/",
+    projectUrl: "https://tilestokapp-2.onrender.com",
     members: [
       { id: "1", name: "UWISHEMA SONGA Arnaurd Briant", role: "Team Lead" },
       { id: "2", name: "KAYITARE MANZI Werner", role: "Developer" },

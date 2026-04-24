@@ -249,10 +249,10 @@ const mockProjects: Project[] = [
     id: "8",
     title: "Umuganda_T",
     description:
-      "Innovative solution led by GROUP 8 demonstrating technical expertise and creative problem-solving.",
+      "no Project , just wait.",
     image:
       "https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?w=800&q=80",
-    projectUrl: "https://group8-project.vercel.app",
+    // projectUrl: "https://group8-project.vercel.app",
     members: [
       { id: "1", name: "Irakoze Cyiza Honore", role: "Group Leader" },
       { id: "2", name: "Sangwa Carl Darcy", role: "Developer" },
@@ -264,10 +264,10 @@ const mockProjects: Project[] = [
     id: "9",
     title: "GROUP 9 Project",
     description:
-      "Modern application developed by GROUP 9 team showcasing cutting-edge technology implementation.",
+      "No Project Just wait.",
     image:
       "https://images.unsplash.com/photo-1516116216624-53e697fedbea?w=800&q=80",
-    projectUrl: "https://group9-project.vercel.app",
+    // projectUrl: "https://group9-project.vercel.app",
     members: [
       { id: "1", name: "BILINGBI-MAX Alvynn Knhel", role: "Team Lead" },
       { id: "2", name: "MUGABO MANZI Calvin", role: "Developer" },
@@ -298,10 +298,10 @@ const mockProjects: Project[] = [
     id: "20",
     title: "GROUP 20 Project",
     description:
-      "Comprehensive solution developed by GROUP 20 demonstrating collaborative development excellence.",
+      "No Project Just,Just wait.",
     image:
       "https://images.unsplash.com/photo-1553877522-43269d4ea984?w=800&q=80",
-    projectUrl: "https://group20-project.vercel.app",
+    // projectUrl: "https://group20-project.vercel.app",
     members: [
       { id: "1", name: "SHEMA Shanny", role: "Team Lead" },
       { id: "2", name: "SHIMWA Favour Chris", role: "Developer" },

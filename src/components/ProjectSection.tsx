@@ -274,7 +274,7 @@ const mockProjects: Project[] = [
       { id: "2", name: "MUGABO MANZI Calvin", role: "Developer" },
       { id: "3", name: "Bwenge Hirwa Rayan", role: "Developer" },
       { id: "4", name: "Manzi Yvan", role: "Developer" },
-      { id: "5", name: "GANZA Yacine Pleasure", role: "Developer" },
+      { id: "5", name: "GANZA Racine Pleasure", role: "Developer" },
     ],
   },
 

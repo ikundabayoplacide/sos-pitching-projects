@@ -5,6 +5,7 @@ import p14 from '../assets/14.png';
 import p18 from '../assets/18.png';
 import p5 from '../assets/5.png';
 import p9 from '../assets/9.png';
+import p3 from '../assets/3.png';
 import p6 from '../assets/6.png';
 import p7 from '../assets/7.png';
 import p4 from '../assets/4.png';
@@ -188,10 +189,10 @@ const mockProjects: Project[] = [
 
   {
     id: "3",
-    title: "group 3 project",
+    title: "Control Every Item.Own Your Stock.",
     description:
-      "No Project provided",
-    image: "https://images.unsplash.com/photo-1506744038136-46273834b3fb?w=800&q=80",
+      "StockFlow gives businesses of any size real-time visibility into their inventory. Track products, manage warehouses, prevent stockouts, and grow with confidence.",
+    image: p3,
     projectUrl: "https://stockflow-k9ezy9sbk-ishimwe-brunos-projects.vercel.app",
     members: [
       { id: "1", name: "Mugisha Kayitare Eloge", role: "Team Lead" },

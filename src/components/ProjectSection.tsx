@@ -4,6 +4,7 @@ import p13 from '../assets/13.png';
 import p14 from '../assets/14.png';
 import p18 from '../assets/18.png';
 import p5 from '../assets/5.png';
+import p9 from '../assets/9.png';
 import p6 from '../assets/6.png';
 import p7 from '../assets/7.png';
 import p4 from '../assets/4.png';
@@ -262,12 +263,11 @@ const mockProjects: Project[] = [
   },
   {
     id: "9",
-    title: "GROUP 9 Project",
+    title: "MuduguduConnect",
     description:
-      "No Project Just wait.",
-    image:
-      "https://images.unsplash.com/photo-1516116216624-53e697fedbea?w=800&q=80",
-    // projectUrl: "https://group9-project.vercel.app",
+      "MuduguduConnect is a web platform that helps people find local domestic workers quickly and easily. Users can search for workers like cleaners, guards, or babysitters in their area, view their profiles, and contact them directly. The goal is to make hiring local services simple, fast, and trustworthy..",
+    image:p9,
+    projectUrl: "https://muduguduconnect-fina-lfrontend-ezhx.vercel.app/",
     members: [
       { id: "1", name: "BILINGBI-MAX Alvynn Knhel", role: "Team Lead" },
       { id: "2", name: "MUGABO MANZI Calvin", role: "Developer" },

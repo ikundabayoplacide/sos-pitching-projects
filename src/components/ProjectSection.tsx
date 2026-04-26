@@ -6,6 +6,7 @@ import p18 from '../assets/18.png';
 import p5 from '../assets/5.png';
 import p9 from '../assets/9.png';
 import p3 from '../assets/3.png';
+import p8 from '../assets/p8.png';
 import p6 from '../assets/6.png';
 import p7 from '../assets/7.png';
 import p4 from '../assets/4.png';
@@ -250,11 +251,9 @@ const mockProjects: Project[] = [
   {
     id: "8",
     title: "Umuganda_T",
-    description:
-      "no Project , just wait.",
-    image:
-      "https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?w=800&q=80",
-    // projectUrl: "https://group8-project.vercel.app",
+    description:"Umuganda-T keeps Rwanda's obligation work visible and organized.",
+    image:p8,
+    projectUrl: "https://umuganda-t-5.onrender.com/",
     members: [
       { id: "1", name: "Irakoze Cyiza Honore", role: "Group Leader" },
       { id: "2", name: "Sangwa Carl Darcy", role: "Developer" },
@@ -270,11 +269,11 @@ const mockProjects: Project[] = [
     image:p9,
     projectUrl: "https://muduguduconnect-fina-lfrontend-ezhx.vercel.app/",
     members: [
-      { id: "1", name: "BILINGBI-MAX Alvynn Knhel", role: "Team Lead" },
-      { id: "2", name: "MUGABO MANZI Calvin", role: "Developer" },
-      { id: "3", name: "Bwenge Hirwa Rayan", role: "Developer" },
-      { id: "4", name: "Manzi Yvan", role: "Developer" },
-      { id: "5", name: "GANZA Racine Pleasure", role: "Developer" },
+      { id: "1", name: "BILINGBI-MAX Alvynn Knhel", role: "Chef d'équipe-backend dev" },
+      { id: "2", name: "MUGABO MANZI Calvin", role: "Front-end dev" },
+      { id: "3", name: "Bwenge Hirwa Rayan", role: "Database manager" },
+      { id: "4", name: "Manzi Yvann", role: "UI/UX testeur" },
+      { id: "5", name: "GANZA Racine Plaisir", role: "APIs testeur" },
     ],
   },
 

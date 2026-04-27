@@ -1,10 +1,24 @@
 import { useEffect, useState } from 'react';
 
+import all from '../assets/wallpaperAll.png';
+import me from '../assets/wallapaper2.png';
+import me2 from '../assets/wallapaper3.png';
+import me3 from '../assets/santech1.png';
+import m4 from '../assets/hundwa.png';
+import m5 from '../assets/celia.png';
+import m6 from '../assets/clodine.png';
+import m7 from '../assets/irola.png';
+
+
 const heroImages = [
-  'https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=800&q=80',
-  'https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=800&q=80',
-  'https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=800&q=80',
-  'https://images.unsplash.com/photo-1504639725590-34d0984388bd?w=800&q=80',
+  all,
+  me,
+  me2,
+  me3,
+  m4,
+  m5,
+  m6,
+  m7
 ];
 
 export default function HeroSection() {
@@ -22,7 +36,7 @@ export default function HeroSection() {
     <section id="home" className="relative min-h-screen flex items-center justify-center overflow-hidden pt-16">
       {/* Animated Background */}
       <div className="absolute inset-0 bg-background-primary">
-        <div className="absolute inset-0 opacity-20">
+        <div className="absolute inset-0 opacity-50">
           {heroImages.map((img, index) => (
             <div
               key={index}
@@ -38,7 +52,7 @@ export default function HeroSection() {
             </div>
           ))}
         </div>
-        <div className="absolute inset-0 bg-gradient-to-b from-background-primary/20 via-background-primary/20 to-background-primary" />
+        <div className="absolute inset-0 bg-gradient-to-b from-background-primary/10 via-background-primary/10 to-background-primary" />
       </div>
 
       {/* Floating Elements */}
@@ -50,7 +64,7 @@ export default function HeroSection() {
 
       {/* Content */}
       <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-        <div className="animate-fade-in">
+        <div className="animate-fade-in mt-32">
           <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold mb-6">
             <span className="text-primary-400">Innovate.</span>{' '}
             <span className="text-secondary-200">Create.</span>{' '}
@@ -76,15 +90,15 @@ export default function HeroSection() {
         </div>
 
         {/* Scroll Indicator */}
-        <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2">
-          <div className="w-6 h-10 border-2 border-secondary-500 rounded-full flex justify-center">
+        <div className="absolute left-1/2 transform -translate-x-1/2">
+          <div className="w-6 h-8 border-2 border-secondary-500 rounded-full flex justify-center">
             <div className="w-1 h-3 bg-accent-500 rounded-full mt-2 animate-scroll" />
           </div>
         </div>
       </div>
 
       {/* Image Indicators */}
-      <div className="absolute bottom-20 left-1/2 transform -translate-x-1/2 flex gap-2 z-20">
+      <div className="absolute bottom-10 left-1/2 transform -translate-x-1/2 flex gap-2 z-20">
         {heroImages.map((_, index) => (
           <button
             key={index}
